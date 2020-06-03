@@ -65,7 +65,7 @@ The Home component in [HomeComponent.js](https://github.com/mc-internship/covid1
 2. A rotating globe in the center  which is imported from [GlobeComponent.js](https://github.com/mc-internship/covid19visualizer/blob/master/frontend/src/components/GlobeComponent.js). This uses the react-globe library. The globe is automatically rotating but it can also be pressed and dragged to take us to the country of our choice. The globe has 5 markers for the 5 countries we are considering. Clicking on these markers takes us to the country’s page. 
 3. Five country cards on the right displaying the country’s stats like confirmed, active, recovered and deceased. Clicking on these cards also takes us to the country’s page. 
 
-<img src="https://github.com/mc-internship/documentation/blob/docs/assets/Home.png" width="400" height="400" align="center" />
+<img src="assets/Home.png" width="400" height="400" align="center" />
 
 ### Country’s Page
 
