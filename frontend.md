@@ -21,9 +21,9 @@ To run the website on your local server, do the following:
 
 ## A Short Walkthrough 
 
-The website has been hosted at the following link: [http://covid19visual.herokuapp.com/home](http://covid19visual.herokuapp.com/home) 
+The website has been hosted at the following link: [http://covid19visual.herokuapp.com/home](http://covid19visual.herokuapp.com/home). 
 
-A short walkthrough of the various features of the website can be found [here](https://photos.app.goo.gl/xEL4B8GYS9kgBcTM9)
+A short walkthrough of the various features of the website can be found [here](https://photos.app.goo.gl/xEL4B8GYS9kgBcTM9).
 
 ## Directory Structure 
 
@@ -42,4 +42,8 @@ The frontend has the following directory structure:
    |—shared
 
 ```
+## Architecture and How Things Work
+
+We have 5 main pages - Home, Timeline, Demographics, Impact and Events present as components - [HomeComponent.js](HomeComponent.js), TimelineComponent.js, DemographicsComponent.js, ImpactComponent.js and EventsComponent.js in src/components. We also have a MainComponent.js which carries the Main component which has the router for all these pages. The Main Component is called in App.js. 
+
 
