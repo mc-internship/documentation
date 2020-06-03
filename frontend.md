@@ -73,13 +73,19 @@ The country’s page displays the country map in the middle, table on the right 
 
 The country pages like [IndiaComponent.js](https://github.com/mc-internship/covid19visualizer/blob/master/frontend/src/components/IndiaComponent.js) import the code from [MainView.js](https://github.com/mc-internship/covid19visualizer/blob/master/frontend/src/components/Mapscountry/MainView.js) for each country. 
 
+<img src="assets/Country.png" width="960" height="600" align="center" />
+
 ### Timeline, Demographics, and Impact
 
 These pages contain graphs for the 5 different countries displaying the trends, the demographics, and the main industries which have been impacted. These country files are present in the folders [TrendCharts](https://github.com/mc-internship/covid19visualizer/tree/master/frontend/src/components/TrendCharts), [DemographicsElements](https://github.com/mc-internship/covid19visualizer/tree/master/frontend/src/components/DemographicsElements) and [ImpactElements](https://github.com/mc-internship/covid19visualizer/tree/master/frontend/src/components/ImpactElements) respectively. We can navigate to the different countries using the side navigation bar. All the graphs used can be found in the [ChartHelpers](https://github.com/mc-internship/covid19visualizer/tree/master/frontend/src/components/ChartHelpers) folder. 
 
+<img src="assets/Timeline.png" width="960" height="600" align="center" />
+
 ### Events Page
 
 Events page displays two things for a country. First thing is the daily confirmed cases chart for a country which comes from the [ChartHelpers](https://github.com/mc-internship/covid19visualizer/tree/master/frontend/src/components/ChartHelpers) folder. Second is the list of events and government policy decisions that took place in a country. This is so that we can study how the events affected the total confirmed cases and if they were effective. This list is imported from [EventHelperComponent.js](https://github.com/mc-internship/covid19visualizer/blob/master/frontend/src/components/EventHelperComponent.js).
+
+<img src="assets/Events.png" width="960" height="600" align="center" />
 
 ## Further Additions We Can Make
 
