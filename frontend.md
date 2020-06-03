@@ -79,7 +79,7 @@ These pages contain graphs for the 5 different countries displaying the trends, 
 
 Events page displays two things for a country. First thing is the daily confirmed cases chart for a country which comes from the [ChartHelpers](https://github.com/mc-internship/covid19visualizer/tree/master/frontend/src/components/ChartHelpers) folder. Second is the list of events and government policy decisions that took place in a country. This is so that we can study how the events affected the total confirmed cases and if they were effective. This list is imported from [EventHelperComponent.js](https://github.com/mc-internship/covid19visualizer/blob/master/frontend/src/components/EventHelperComponent.js).
 
-## Further Things We Can Do
+## Further Additions We Can Make
 
 These things would make the existing website better, but couldn’t be done in the period of the internship because of lack of time - 
 
