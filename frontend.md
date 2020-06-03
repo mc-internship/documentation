@@ -19,8 +19,25 @@ To run the website on your local server, do the following:
 2. Navigate to the frontend folder
 3. Either run `bash entrypoint.sh` or `yarn install && yarn start`
 
-## A short walkthrough 
+## A Short Walkthrough 
 
-The website has been hosted at the following link - [http://covid19visual.herokuapp.com/home](http://covid19visual.herokuapp.com/home) 
+The website has been hosted at the following link: [http://covid19visual.herokuapp.com/home](http://covid19visual.herokuapp.com/home) 
 
 A short walkthrough of the various features of the website can be found [here](https://photos.app.goo.gl/xEL4B8GYS9kgBcTM9)
+
+## Directory Structure 
+
+The frontend has the following directory structure:
+`-/|/'
+   |-build
+   |-public
+   |---maps
+   |-src
+   |---components
+   |-----ChartHelpers
+   |-----DemographicsElements
+   |-----ImpactElements
+   |-----Mapscountry
+   |-----TrendCharts
+`
+
