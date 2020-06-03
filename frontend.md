@@ -18,3 +18,7 @@ To run the website on your local server, do the following:
 `git clone https://github.com/mc-internship/covid19visualizer.git`
 2. Navigate to the frontend folder
 3. Either run `bash entrypoint.sh` or `yarn install && yarn start`
+
+## A short walkthrough 
+
+The website has been hosted at the following link - [http://covid19visual.herokuapp.com/home](http://covid19visual.herokuapp.com/home) 
