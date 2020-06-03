@@ -28,7 +28,7 @@ A short walkthrough of the various features of the website can be found [here](h
 ## Directory Structure 
 
 The frontend has the following directory structure:
-`-/|/'
+```-/|/'
    |-build
    |-public
    |---maps
@@ -39,5 +39,5 @@ The frontend has the following directory structure:
    |-----ImpactElements
    |-----Mapscountry
    |-----TrendCharts
-`
+```
 
