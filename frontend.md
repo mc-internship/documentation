@@ -1,8 +1,8 @@
-#Covid19Visualizer
+# Covid19Visualizer
 
 A new perspective of visualization for Covid-19. 
 
-##A Brief Description of The Project
+## A Brief Description of The Project
 
 This project involves developing a web dashboard for tracking the spread of Covid-19 in the five countries of 
 India, USA, Germany, Italy and Singapore as well as providing important insights regarding the same. Trends, industry
