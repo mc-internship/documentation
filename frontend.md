@@ -58,5 +58,12 @@ We have 5 main pages - Home, Timeline, Demographics, Impact and Events present a
    * [HeadBarAbove.js](https://github.com/mc-internship/covid19visualizer/blob/master/frontend/src/components/Mapscountry/HeadBarAbove.js) - This contains the function to change the heatmap according to the four options of confirmed, active, recovered, and deceased. These are present as buttons below the maps.
    * [MainView.js](https://github.com/mc-internship/covid19visualizer/blob/master/frontend/src/components/Mapscountry/MainView.js) - This is the main file for the country page. This takes the map component, table component, and the stats component as well the buttons to shift between different heatmaps, places them in separate div containers and exports them all to a country’s page. 
 
+### Home 
+
+The Home component in [HomeComponent.js](https://github.com/mc-internship/covid19visualizer/blob/master/frontend/src/components/HomeComponent.js) consists of three elements - 
+1. A news feed on the left which fetches data from a news api imported as news from [dataexport.js](https://github.com/mc-internship/covid19visualizer/blob/master/frontend/src/components/dataexport.js). 
+2. A rotating globe in the center  which is imported from [GlobeComponent.js](https://github.com/mc-internship/covid19visualizer/blob/master/frontend/src/components/GlobeComponent.js). This uses the react-globe library. The globe is automatically rotating but it can also be pressed and dragged to take us to the country of our choice. The globe has 5 markers for the 5 countries we are considering. Clicking on these markers takes us to the country’s page. 
+3. Five country cards on the right displaying the country’s stats like confirmed, active, recovered and deceased. Clicking on these cards also takes us to the country’s page. 
+
 
 
