@@ -65,19 +65,27 @@ The Home component in [HomeComponent.js](https://github.com/mc-internship/covid1
 2. A rotating globe in the center  which is imported from [GlobeComponent.js](https://github.com/mc-internship/covid19visualizer/blob/master/frontend/src/components/GlobeComponent.js). This uses the react-globe library. The globe is automatically rotating but it can also be pressed and dragged to take us to the country of our choice. The globe has 5 markers for the 5 countries we are considering. Clicking on these markers takes us to the country’s page. 
 3. Five country cards on the right displaying the country’s stats like confirmed, active, recovered and deceased. Clicking on these cards also takes us to the country’s page. 
 
+<img src="assets/Home.png" width="960" height="600" align="center" />
+
 ### Country’s Page
 
 The country’s page displays the country map in the middle, table on the right and region stats on the left. Hovering on any region on the map highlights the region in the table and vice-versa and we also get the region stats on the left. To get the country stats, we click anywhere outside the map. These maps and tables are connected by a unique identifier which we are using as the state name/district name. For the map to function, in the topojsons we are using, we should have a field called “st_nm” for every region and this should exactly match the name we are using for the region in the database. 
 
 The country pages like [IndiaComponent.js](https://github.com/mc-internship/covid19visualizer/blob/master/frontend/src/components/IndiaComponent.js) import the code from [MainView.js](https://github.com/mc-internship/covid19visualizer/blob/master/frontend/src/components/Mapscountry/MainView.js) for each country. 
 
+<img src="assets/Country.png" width="960" height="600" align="center" />
+
 ### Timeline, Demographics, and Impact
 
 These pages contain graphs for the 5 different countries displaying the trends, the demographics, and the main industries which have been impacted. These country files are present in the folders [TrendCharts](https://github.com/mc-internship/covid19visualizer/tree/master/frontend/src/components/TrendCharts), [DemographicsElements](https://github.com/mc-internship/covid19visualizer/tree/master/frontend/src/components/DemographicsElements) and [ImpactElements](https://github.com/mc-internship/covid19visualizer/tree/master/frontend/src/components/ImpactElements) respectively. We can navigate to the different countries using the side navigation bar. All the graphs used can be found in the [ChartHelpers](https://github.com/mc-internship/covid19visualizer/tree/master/frontend/src/components/ChartHelpers) folder. 
 
+<img src="assets/Timeline.png" width="960" height="600" align="center" />
+
 ### Events Page
 
 Events page displays two things for a country. First thing is the daily confirmed cases chart for a country which comes from the [ChartHelpers](https://github.com/mc-internship/covid19visualizer/tree/master/frontend/src/components/ChartHelpers) folder. Second is the list of events and government policy decisions that took place in a country. This is so that we can study how the events affected the total confirmed cases and if they were effective. This list is imported from [EventHelperComponent.js](https://github.com/mc-internship/covid19visualizer/blob/master/frontend/src/components/EventHelperComponent.js).
+
+<img src="assets/Events.png" width="960" height="600" align="center" />
 
 ## Further Additions We Can Make
 
