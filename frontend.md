@@ -39,6 +39,7 @@ The frontend has the following directory structure:
    |-----ImpactElements
    |-----Mapscountry
    |-----TrendCharts
-   |---shared
+   |—shared
+
 ```
 
