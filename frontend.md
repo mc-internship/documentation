@@ -65,6 +65,8 @@ The Home component in [HomeComponent.js](https://github.com/mc-internship/covid1
 2. A rotating globe in the center  which is imported from [GlobeComponent.js](https://github.com/mc-internship/covid19visualizer/blob/master/frontend/src/components/GlobeComponent.js). This uses the react-globe library. The globe is automatically rotating but it can also be pressed and dragged to take us to the country of our choice. The globe has 5 markers for the 5 countries we are considering. Clicking on these markers takes us to the country’s page. 
 3. Five country cards on the right displaying the country’s stats like confirmed, active, recovered and deceased. Clicking on these cards also takes us to the country’s page. 
 
+<img src="https://github.com/mc-internship/documentation/blob/docs/assets/Home.png" width="960" height="600" align="center" />
+
 ### Country’s Page
 
 The country’s page displays the country map in the middle, table on the right and region stats on the left. Hovering on any region on the map highlights the region in the table and vice-versa and we also get the region stats on the left. To get the country stats, we click anywhere outside the map. These maps and tables are connected by a unique identifier which we are using as the state name/district name. For the map to function, in the topojsons we are using, we should have a field called “st_nm” for every region and this should exactly match the name we are using for the region in the database. 
