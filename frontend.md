@@ -12,7 +12,7 @@ out in May 2020. This is a documentation focussing on the frontend side of the w
 
 ## Installation Instructions 
 
-To run the website on your local server - do the following:
+To run the website on your local server, do the following:
 
 1. Clone the repository 
 `git clone https://github.com/mc-internship/covid19visualizer.git`
