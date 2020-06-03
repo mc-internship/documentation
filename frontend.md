@@ -44,6 +44,6 @@ The frontend has the following directory structure:
 ```
 ## Architecture and How Things Work
 
-We have 5 main pages - Home, Timeline, Demographics, Impact and Events present as components - [HomeComponent.js](HomeComponent.js), TimelineComponent.js, DemographicsComponent.js, ImpactComponent.js and EventsComponent.js in src/components. We also have a MainComponent.js which carries the Main component which has the router for all these pages. The Main Component is called in App.js. 
+We have 5 main pages - Home, Timeline, Demographics, Impact and Events present as components - [HomeComponent.js](frontend/src/components/HomeComponent.js), TimelineComponent.js, DemographicsComponent.js, ImpactComponent.js and EventsComponent.js in src/components. We also have a MainComponent.js which carries the Main component which has the router for all these pages. The Main Component is called in App.js. 
 
 
